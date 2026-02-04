@@ -7,6 +7,7 @@
 
 **HashiCorp Terraform Associate - Hands-on Labs**  
 Toronto Cloud Engineer | AWS SAP Certified | shahtaj2102
+Hands-On Approach with 70+ labs that follow the HashiCorp Certified: Terraform Associate. These are labs about what I did and what I learned with terraform.(I will keep updating this as I keep learning.
 
 ## Current Status
 -  Repo created (Feb 3, 2026)
