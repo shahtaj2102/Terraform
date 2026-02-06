@@ -17,7 +17,7 @@
 
 
 #1.3
-we can confirm that are variables are set using terraform init
+we can confirm that are variables are set and also initiate terraform using terraform init
 
 ![Terrsform init check](screenshots/confirmation_that_enviornment_is_setup.png)
 
