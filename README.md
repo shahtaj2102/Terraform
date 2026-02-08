@@ -1,5 +1,6 @@
 # Terraform
-## Terraform AWS VPC (Under Construction)
+Learning terraform from scratch, while creating projects alongside for AWS
+
 **Live Infrastructure as Code** | AWS ca-central-1 | HashiCorp Associate Labs
 
 [![Terraform](https://img.shields.io/badge/terraform-v1.14-blue?logo=terraform)](https://www.terraform.io/)
