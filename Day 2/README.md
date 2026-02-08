@@ -1,6 +1,6 @@
 # Terraform Day 2 Notes
 
-### What is HCL?
+## 2.1 What is HCL?
 HCL (HashiCorp Configuration Language) is Terraform's simple language for writing infrastructure code in .tf files.
 ​
 
@@ -8,9 +8,11 @@ Uses blocks and key-value pairs that are easy for humans to read and write.
 
 **Template**
 
-![HCL_Template](screenshots/HCL_block_template)
+![HCL_Template](screenshots/HCL_block_template.png)
 
-### Benefits of HCL
+This is a small example for an **EC2 instance**
+
+## 2.2 Benefits of HCL
 
 Readable: Looks like simple config files, not complex code
 
@@ -20,7 +22,7 @@ Terraform native: Built specifically for infrastructure as code
 
 JSON compatible: Machines can generate/parse it easily
 
-### Core Commands
+## 2.3 Core Commands
 
 `terraform init`: Initializes a Terraform working directory by downloading providers, modules, and setting up the backend.
 
@@ -35,12 +37,12 @@ JSON compatible: Machines can generate/parse it easily
 `terraform destroy`: Destroys all tracked infrastructure and removes everything from state.
 ​
 
-## Terraform State File
+## 2.4 Terraform State File
 The Terraform state file (`terraform.tfstate`) is a JSON file that acts as the single source of truth, mapping your configuration to real-world infrastructure resources Terraform manages.
 
 It stores resource addresses, attributes, dependencies, metadata, and outputs, enabling Terraform to detect drift, plan changes, and maintain performance without repeated API calls.
 
-### State relate commands
+## 2.5 State relate commands
 
 `terraform state list`      # List resources in state
 
@@ -50,7 +52,7 @@ It stores resource addresses, attributes, dependencies, metadata, and outputs, e
 
 `terraform state rm`        # Remove from state
 
-### Some other commands
+## 2.6 Some other commands
 
 `terraform fmt`      # Formats all .tf files to standard style
 
