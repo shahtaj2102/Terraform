@@ -1,5 +1,25 @@
 # Terraform Day 2 Notes
 
+### What is HCL?
+HCL (HashiCorp Configuration Language) is Terraform's simple language for writing infrastructure code in .tf files.
+​
+
+Uses blocks and key-value pairs that are easy for humans to read and write.
+
+**Template**
+
+![HCL_Template](screenshots/HCL_block_template)
+
+### Benefits of HCL
+
+Readable: Looks like simple config files, not complex code
+
+Multi cloud: Works with multiple cloud types, Even in the same file
+
+Terraform native: Built specifically for infrastructure as code
+
+JSON compatible: Machines can generate/parse it easily
+
 ### Core Commands
 
 `terraform init`: Initializes a Terraform working directory by downloading providers, modules, and setting up the backend.
