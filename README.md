@@ -18,7 +18,7 @@ To follow my daily progress you can check the folders labeled with their days. (
 
 ## Tech Stack
 
-Terraform v1.14.4 | AWS CLI v2 | PowerShell | VS Code | GitHub Action
+Terraform v1.14.4 | AWS CLI v2 | PowerShell | VS Code | GitHub Action.
 
 ---
 
