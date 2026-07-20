@@ -1,5 +1,5 @@
 # Terraform
-Learning terraform from scratch, while creating projects alongside for AWS
+Learning Terraform from scratch, while creating projects alongside for AWS
 
 **Live Infrastructure as Code** | AWS ca-central-1 | HashiCorp Associate Labs.
 
