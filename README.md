@@ -13,7 +13,7 @@ Hands-On Approach with 70+ labs that follow the HashiCorp Certified: Terraform A
 **Goal**
 1. Create a three-tier AWS architecture using Terraform.
 2. Clear the Terraform exam and gain the certification.
-----
+---
 To follow my daily progress you can check the folders labeled with their days. (These are summarized notes)
 
 ## Tech Stack
